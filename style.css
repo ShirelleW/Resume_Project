@@ -143,7 +143,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #fff;
+  background: rgb(252, 252, 252);
 }
 
 .resume .resume_right{
@@ -183,4 +183,28 @@ body {
 .resume .resume_right .resume_item .list ul li{
   display: list-item;
   list-style-type: circle;
+}
+
+/*=====Classroom Edits=====*/
+
+#welding:hover{
+  background-image: url("https://www.ziprecruiter.com/svc/fotomat/public-ziprecruiter/cms/941595494StickWelder.jpg");
+  background-position: center;
+  width: 500px;
+  height: 500px;
+}
+#rigging:hover{
+  background-image: url("https://www.dc16star.org/wp-content/uploads/2018/12/Rigging-Hoisting-B-EDIT.jpg");
+  width: 500px;
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
+}
+
+#msa:hover{
+  background-image: url("http://media.noria.com/sites/Uploads/2019/9/25/c863c480-5122-45da-a4dd-949cb35a70f6_ArticleImages_ML31069_1234x694_05162019_extra_large.jpeg");
+  width: 500px;
+  height: 500px;
+  background-position: center center;
+  background-size: cover;
 }
